@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> box sizing and opacity</title>
+    <style>
+        .div1{
+            background-color: brown;
+            height: 300px;
+            width: 50%;
+            padding: 10px;
+            border: 5px solid gray;
+            box-sizing: border-box;
+        }
+         .div2{
+            background-color:green;
+            height: 300px;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi pariatur labore sit tempora, laborum cupiditate reiciendis praesentium veniam. Possimus error vitae voluptate fugiat non quibusdam, atque sequi doloremque eveniet obcaecati optio aperiam dolores necessitatibus harum voluptatem eum libero ipsa omnis illum labore beatae consectetur aspernatur? Iure mollitia, omnis obcaecati pariatur amet illo sunt, nemo fugiat officiis possimus aliquam ad? Ratione quis sunt mollitia impedit. Quidem, quam soluta dolorum illum obcaecati enim nemo ut omnis fugiat dolore recusandae hic temporibus aliquam impedit illo sequi quas explicabo! Unde aut est facere ut doloribus laboriosam dolor in explicabo quibusdam debitis, delectus velit quasi, eos, reprehenderit voluptatum reiciendis odio? Eveniet modi perspiciatis numquam, sed nulla dolores facere architecto esse vero reiciendis nobis unde exercitationem quidem explicabo harum. Pariatur id eaque accusantium voluptate magni delectus, aliquam in soluta sint architecto magnam quos ut cupiditate, saepe qui ducimus rem sapiente non voluptatem perferendis eligendi! Deserunt reiciendis officiis cumque, distinctio totam repudiandae nemo molestias facere nobis consequatur odit alias excepturi eum, soluta veniam autem culpa deleniti minus quasi voluptatum. Optio dolores, hic quae velit eveniet autem. Similique blanditiis ex voluptatum, impedit ducimus et odit sequi voluptate harum, nihil quo velit inventore unde explicabo! Nostrum doloremque ea consequuntur?</p>
+    </div>
+    <div class="div2">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi pariatur labore sit tempora, laborum cupiditate reiciendis praesentium veniam. Possimus error vitae voluptate fugiat non quibusdam, atque sequi doloremque eveniet obcaecati optio aperiam dolores necessitatibus harum voluptatem eum libero ipsa omnis illum labore beatae consectetur aspernatur? Iure mollitia, omnis obcaecati pariatur amet illo sunt, nemo fugiat officiis possimus aliquam ad? Ratione quis sunt mollitia impedit. Quidem, quam soluta dolorum illum obcaecati enim nemo ut omnis fugiat dolore recusandae hic temporibus aliquam impedit illo sequi quas explicabo! Unde aut est facere ut doloribus laboriosam dolor in explicabo quibusdam debitis, delectus velit quasi, eos, reprehenderit voluptatum reiciendis odio? Eveniet modi perspiciatis numquam, sed nulla dolores facere architecto esse vero reiciendis nobis unde exercitationem quidem explicabo harum. Pariatur id eaque accusantium voluptate magni delectus, aliquam in soluta sint architecto magnam quos ut cupiditate, saepe qui ducimus rem sapiente non voluptatem perferendis eligendi! Deserunt reiciendis officiis cumque, distinctio totam repudiandae nemo molestias facere nobis consequatur odit alias excepturi eum, soluta veniam autem culpa deleniti minus quasi voluptatum. Optio dolores, hic quae velit eveniet autem. Similique blanditiis ex voluptatum, impedit ducimus et odit sequi voluptate harum, nihil quo velit inventore unde explicabo! Nostrum doloremque ea consequuntur?</p>
+    </div>
+   
+    
+</body>
+</html>
