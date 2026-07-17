@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text-shadow and box-shadow</title>
+    <style>
+        h1{
+            text-shadow: 5px 5px red;
+        }
+        div{
+            width: 200px;
+            background-color: brown;
+            border: 2px solid green;
+            box-shadow: 30px -15px teal;
+            /* box-shadow: inset 30px -15px teal; */
+        }
+    </style>
+</head>
+<body>
+    <h1>siyam</h1>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut iusto, sint nam sed explicabo fugit itaque, in magnam accusamus esse, neque consectetur aliquid error? Quidem aliquid quaerat minus dolor laudantium!</p>
+    </div>
+</body>
+</html>
