@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to center element using CSS</title>
+    <style>
+        .main{
+            width: 80%;
+            height: 400px;
+            margin: 0 auto;
+            text-align: center;
+            background-color:pink;
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+            position: relative;
+        }
+        .child{
+            background-color: green;
+           width: 300px;
+           height: 200px;
+           position: absolute;
+           top:50%;
+           left: 50%;
+           transform: translate(-50%,-50%);
+        
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="main">
+      <div class="child">
+        <h3>How to center element using CSS</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem nesciunt maxime hic excepturi debitis, ut fugiat, quos molestiae obcaecati aliquam ab sunt eius eligendi distinctio quaerat illo. Ad, nostrum nisi!</p>
+    </div>
+    </div>
+</body>
+</html>
