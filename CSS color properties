@@ -1,0 +1,22 @@
+</html>
+<head>
+    <style>
+h1 {
+    color: blue;
+}
+
+p {
+    color: #ff5733;
+}
+</style>
+
+</head>
+
+
+   <body>
+   <h1>Hello CSS</h1>
+     <p>This is color example</p>
+    </body>
+
+</html>
+
