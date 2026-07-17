@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Overflow and custom Tooltip</title>
+    <style>
+       div{
+        height: 100px;
+        width: 250px;
+        background-color: green;
+        border: 1px solid red;
+        /* overflow: visible; */
+        /* overflow: hidden; */
+          /* overflow: scroll; */
+          /* overflow: auto; */
+       } 
+       .tooltip.tooltip-text{
+         /* visibility: hidden; */
+         width:150px ;
+         background-color: indigo;
+         color: white;
+         padding: 10px;
+         border-radius: 5px;
+       }
+
+    </style>
+</head>
+<body>
+    <a href="#" class="tooltip">
+        facebook
+        <span class="tooltip-text">facebook is social media</span>
+    </a>
+    <br>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi enim mollitia, neque ea hic rerum, corporis, illum dolore provident eligendi? Exercitationem ab reprehenderit pariatur optio maiores quisquam ex harum.
+    </div>
+
+</body>
+</html>
