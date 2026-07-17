@@ -1,0 +1,22 @@
+<html>
+   <head>
+     <style>
+        h1{
+               color: green;
+               font-size: 200%;
+            }
+            p{
+                color: blue;
+                font-size: 180%;
+            }
+     </style>
+ </head> 
+
+   <body>
+    <h1> use Internal CSS</h1>
+    <h1>i am siyam mia</h1>
+    <p>uttara university</p>
+
+    </body>
+
+</html>
