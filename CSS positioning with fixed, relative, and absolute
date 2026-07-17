@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Example</title>
+
+    <style>
+        .nav-menu {
+            border: 3px solid green;
+            padding: 5px;
+            position: fixed;
+            left: 20px;
+            /* top: 20px; */
+            background-color: white;
+        }
+
+        .div1 {
+            border: 3px solid green;
+            padding: 5px;
+            position: relative;
+            /* top: 60px;
+            margin-bottom: 20px; */
+        }
+
+        .div2 {
+            border: 3px solid red;
+            padding: 5px;
+            position: relative;
+            /* left: 20px; */
+            /* top: 60px;
+            margin-bottom: 20px; */
+        }
+        .div3 {
+            border: 3px solid blue;
+            padding: 5px;
+            position: relative;
+            height: 300px;
+            /* left: 20px; */
+            /* top: 60px;
+            margin-bottom: 20px; */
+        }
+   .div4 {
+            border: 3px solid yellow;
+            padding: 5px;
+            position: absolute;
+             left: 100px; 
+            top: 60px;
+            margin-bottom: 20px;
+        }
+
+        /* p {
+            position: relative;
+            top: 60px;
+            padding: 10px;
+            line-height: 1.6;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <div class="nav-menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+        </ul>
+    </div>
+
+    <div class="div1">
+        <p>
+            The display property defines how an HTML element is displayed on a web page.
+            It controls whether an element behaves like a block, inline, flex container,
+            grid container, and more.
+        </p>
+    </div>
+
+    <div class="div2">
+        <p>
+            The float property is used to place an element to the left or right of its
+            container, allowing other content to wrap around it.
+        </p>
+    </div>
+    <div class="div3">
+        <p>
+            The float property is used to place an element to the left or right of its
+            container, allowing other content to wrap around it.
+        </p>
+        <div class="div4">hi uttara</div>
+    </div>
+
+    <p>
+        My best friend is one of the most important people in my life. His name is Rahim.
+        He is a very kind, honest, and helpful person. We have been friends for many years,
+        and our friendship grows stronger every day. A best friend is someone who understands
+        us, supports us, and stays by our side during both good and bad times. Rahim is
+        exactly that kind of friend. He always encourages me to do my best in my studies
+        and helps me whenever I face any problems. We study in the same school and often
+        sit together in class. Whenever I do not understand a lesson, he explains it to me
+        patiently. He is very intelligent and hardworking, which inspires me to work harder
+        and achieve my goals.
+        ### My Best Friend (700+ words Paragraph)
+
+My best friend is one of the most important people in my life. His name is Rahim. He is a very kind, honest, and helpful person. We have been friends for many years, and our friendship grows stronger every day. A best friend is someone who understands us, supports us, and stays by our side during both good and bad times. Rahim is exactly that kind of friend. He always encourages me to do my best in my studies and helps me whenever I face any problems. We study in the same school and often sit together in class. Whenever I do not understand a lesson, he explains it to me patiently. He is very intelligent and hardworking, which inspires me to work harder and achieve my goals. Besides being a good student, he is also a good human being. He respects his parents, teachers, and elders. His polite behavior makes him popular among everyone. One of the things I admire most about him is his honesty. He never tells lies and always speaks the truth, even when it is difficult. This quality has taught me the importance of being truthful in life.
+
+Rahim and I spend a lot of time together. We play football in the afternoon, discuss our studies, and share our thoughts and dreams. We enjoy many activities together, such as reading books, watching educational videos, and participating in school programs. Whenever I feel sad or worried, he listens to me carefully and gives me valuable advice. His words always make me feel better and more confident. A true friend is someone who stands beside us in difficult times, and Rahim has proven this many times. When I was sick and missed several classes, he regularly visited me and shared his class notes so that I could continue my studies without falling behind. His kindness and support helped me recover both physically and mentally.
+
+Friendship is one of the greatest gifts in life, and I feel lucky to have a friend like Rahim. He never becomes jealous of my success; instead, he celebrates my achievements and motivates me to do even better. Similarly, I am happy when he succeeds because true friendship is based on trust, respect, and mutual understanding. We rarely argue, but even when we do, we solve our misunderstandings quickly through honest communication. This helps our friendship remain strong and healthy. Rahim is also very responsible and disciplined. He manages his time well and completes his tasks on time. His positive habits encourage me to improve myself and become a better person.
+
+Another reason why I value Rahim so much is his generosity. He is always willing to help others without expecting anything in return. Whether it is helping a classmate with homework or assisting a neighbor in need, he never hesitates to lend a hand. His caring nature teaches me the importance of kindness and compassion. In today's world, finding a true friend is not easy, but I am fortunate to have found one. He has a positive influence on my life and motivates me to become more confident, responsible, and hardworking. Our friendship is built on trust and understanding, which makes it special and long-lasting.
+
+I believe that friendship plays a vital role in a person's life. Good friends help us grow, learn, and become better individuals. Rahim has taught me many valuable lessons, such as honesty, patience, respect, and perseverance. He always encourages me to stay focused on my goals and never give up, no matter how difficult the situation may be. His friendship gives me strength and happiness. I enjoy every moment we spend together, and I cherish the memories we have created over the years. As we continue our journey through life, I hope our friendship remains strong forever. We dream of achieving success in our careers and supporting each other in every step of life.
+
+In conclusion, my best friend Rahim is a wonderful person who has a significant impact on my life. He is honest, kind, intelligent, hardworking, and supportive. His friendship is a precious treasure that I deeply value. I am grateful to have such a loyal and caring friend. A true friend is one of life's greatest blessings, and Rahim is truly the best friend anyone could ask for. I hope our friendship lasts forever and continues to bring joy, support, and inspiration to both of our lives.
+
+    </p>
+
+</body>
+</html>
