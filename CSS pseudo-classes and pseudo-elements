@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pseudo Class & Pseudo Element Demo</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+/* Navigation Bar */
+nav{
+    background:#2c3e50;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    padding:10px 15px;
+    transition:0.3s;
+}
+
+/* Pseudo Class */
+nav a:hover{
+    background:#e74c3c;
+    border-radius:5px;
+}
+
+.container{
+    width:80%;
+    margin:50px auto;
+    text-align:center;
+}
+
+/* Pseudo Elements */
+h1::before{
+    content:"👉 ";
+    color:blue;
+}
+
+h1::after{
+    content:" 🔥";
+}
+
+p{
+    width:70%;
+    margin:25px auto;
+    font-size:18px;
+    line-height:1.7;
+    color:#333;
+    text-align:justify;
+}
+
+/* Pseudo Class */
+p:hover{
+    color:green;
+}
+
+/* Pseudo Elements */
+p::first-letter{
+    font-size:35px;
+    color:red;
+    font-weight:bold;
+}
+
+p::first-line{
+    font-weight:bold;
+    color:#0f3c69;
+}
+
+button{
+    padding:12px 25px;
+    background:green;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+    transition:0.3s;
+}
+
+/* Pseudo Class */
+button:hover{
+    background:red;
+}
+</style>
+
+</head>
+<body>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Courses</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+    <h1>Welcome to My Website</h1>
+
+    <p>
+        CSS Pseudo Classes and Pseudo Elements are powerful features that allow
+        developers to style elements based on their state or specific parts
+        without adding extra HTML. Pseudo Classes like <strong>:hover</strong>
+        make web pages interactive, while Pseudo Elements like
+        <strong>::before</strong>, <strong>::after</strong>,
+        <strong>::first-letter</strong>, and
+        <strong>::first-line</strong> help create attractive and creative
+        designs with minimal code.
+    </p>
+
+    <button>Click Me</button>
+
+</div>
+
+</body>
+</html>
