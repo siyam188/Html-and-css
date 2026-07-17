@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Website</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Arial, sans-serif;
+        }
+
+        /* Navbar */
+
+        #navi{
+            background:dodgerblue;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        .logo h1{
+            color:white;
+            margin-left:20px;
+        }
+
+        #navi > ul{
+            display:flex;
+            margin-right:30px;
+        }
+
+        #navi > ul > li{
+            list-style:none;
+            position:relative;
+        }
+
+        #navi > ul > li > a{
+            text-decoration:none;
+            color:white;
+            padding:18px 20px;
+            display:block;
+            border-right:1px solid white;
+            transition:0.3s;
+        }
+
+        #navi > ul > li:first-child > a{
+            border-left:1px solid white;
+        }
+
+        #navi > ul > li:hover > a{
+            background:#0f3c69;
+        }
+
+        /* Dropdown */
+
+        .dropdown{
+            display:none;
+            position:absolute;
+            top:100%;
+            left:0;
+            width:180px;
+            background:darkblue;
+            text-align:center;
+        }
+
+        .dropdown li{
+            list-style:none;
+            border-bottom:1px solid white;
+        }
+
+        .dropdown li:first-child{
+            border-top:1px solid white;
+        }
+
+        .dropdown li a{
+            color:white;
+            text-decoration:none;
+            padding:12px;
+            display:block;
+            transition:0.3s;
+        }
+
+        .dropdown li:hover{
+            background:red;
+        }
+
+        #navi > ul > li:hover .dropdown{
+            display:block;
+        }
+
+        /* Hero Area */
+
+        .hero-area{
+            height:500px;
+            background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+            url("https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1600&q=80");
+            background-size:cover;
+            background-position:center;
+            text-align:center;
+            color:white;
+
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .hero-area h2{
+            font-size:45px;
+            margin-bottom:15px;
+        }
+
+        .hero-area p{
+            font-size:22px;
+            margin-bottom:20px;
+        }
+
+        .hero-area button{
+            padding:12px 30px;
+            border:none;
+            background:dodgerblue;
+            color:white;
+            font-size:18px;
+            border-radius:5px;
+            cursor:pointer;
+            transition:0.3s;
+        }
+
+        .hero-area button:hover{
+            background:#0f3c69;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+
+    <nav id="navi">
+        <div class="logo">
+            <h1>Program</h1>
+        </div>
+
+        <ul>
+            <li>
+                <a href="#">Home</a>
+                <ul class="dropdown">
+                    <li><a href="#">Home-1</a></li>
+                    <li><a href="#">Home-2</a></li>
+                    <li><a href="#">Home-3</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">Courses</a>
+                <ul class="dropdown">
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">Python</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">Services</a>
+                <ul class="dropdown">
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">SEO</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero-area">
+        <h2>Welcome To Programming World</h2>
+        <p>Learn HTML, CSS, JavaScript & DSA Easily</p>
+        <button>Get Started</button>
+    </div>
+
+</header>
+
+</body>
+</html>
