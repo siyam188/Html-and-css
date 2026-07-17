@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient - Linear & Radial</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:#f2f2f2;
+            font-family:Arial, sans-serif;
+        }
+
+        .gradient{
+            width:400px;
+            height:250px;
+            border-radius:15px;
+            box-shadow:0 8px 20px rgba(0,0,0,.3);
+
+            /* Linear Gradient */
+            background:linear-gradient(135deg,#00c6ff,#0072ff);
+
+            /* Uncomment to see Radial Gradient */
+            /* background: radial-gradient(circle, #ff9a9e, #fad0c4, #fad0c4); */
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            color:white;
+            font-size:28px;
+            font-weight:bold;
+            transition:.4s;
+        }
+
+        .gradient:hover{
+            transform:scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="gradient">
+        CSS Gradient
+    </div>
+
+</body>
+</html>
