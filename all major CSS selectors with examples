@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors Example</title>
+
+    <style>
+        /* Element Selector */
+        h1{
+            background-color: green;
+            color: white;
+        }
+
+        /* ID Selector */
+        #para1{
+            background-color: rebeccapurple;
+            color: white;
+        }
+
+        /* Class Selector */
+        .para2{
+            background-color: red;
+            color: white;
+        }
+
+        .center{
+            text-align: center;
+        }
+
+        /* Universal Selector */
+        /*
+        *{
+            font-family: Arial, sans-serif;
+        }
+        */
+
+        /* Group Selector */
+        /*
+        h1,p{
+            border:1px solid black;
+        }
+        */
+
+        /* Descendant Selector */
+        /*
+        div p{
+            color:red;
+        }
+        */
+
+        /* Child Selector */
+        /*
+        div > p{
+            color:blue;
+        }
+        */
+
+        /* Adjacent Sibling Selector */
+        /*
+        div + p{
+            color:green;
+        }
+        */
+
+        /* General Sibling Selector */
+        div ~ p{
+            color:orange;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>This is a Heading</h1>
+
+    <p id="para1">This paragraph uses the ID selector.</p>
+
+    <p class="para2 center">
+        This paragraph uses both the Class selector and Center class.
+    </p>
+
+    <div>
+        <p>Paragraph inside div (Child)</p>
+        <p>Another paragraph inside div</p>
+        <section>
+            <p>Paragraph inside section within div</p>
+        </section>
+    </div>
+
+    <p>First paragraph after div</p>
+    <p>Second paragraph after div</p>
+
+</body>
+</html>
